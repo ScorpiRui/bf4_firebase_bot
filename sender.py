@@ -4,7 +4,7 @@ from fireB import pusher
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram import Bot, Dispatcher, executor, types
 logging.basicConfig(level=logging.INFO)
-TOKEN = '5015409457:AAFqbCRvLxRJJG17M0loUMKaVkGnHN94EL8'
+TOKEN = 'YOUR_TOKEN'
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 @dp.message_handler(commands=['start'])
